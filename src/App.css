@@ -29,8 +29,8 @@ main {
 .light-circle,
 .dark-circle {
   position: absolute;
-  height: 47rem;
-  width: 47rem;
+  height: 90vh;
+  width: 90vh;
   border-radius: 50%;
   z-index: -1;
 }
