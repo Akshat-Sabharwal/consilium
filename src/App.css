@@ -57,7 +57,7 @@ main {
   border-radius: 1.875rem;
   box-shadow: 0rem 0.7rem 1.2rem 0.03rem hsla(0, 0%, 0%, 0.2);
   padding: 2rem;
-  min-width: 200px;
+  min-width: 300px;
   width: fit-content;
   max-width: 45%;
   text-align: center;
