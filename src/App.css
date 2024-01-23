@@ -120,13 +120,13 @@ main {
   }
 
   .light-circle {
-    bottom: 50vh;
-    left: 60vw;
+    top: 50vh;
+    right: 60vw;
   }
 
   .dark-circle {
-    top: 45vh;
-    right: 55vw;
+    bottom: 45vh;
+    left: 55vw;
   }
 
   .advice {
