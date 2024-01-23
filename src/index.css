@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+:root {
+  /* Colors */
+  --bg-light: hsla(290, 17%, 77%, 1);
+  --bg-blue: hsla(199, 34%, 33%, 1);
+  --bg-brown: hsla(38, 55%, 65%, 1);
+
+  --font-light: hsla(290, 17%, 77%, 1);
+  --font-dark: hsla(290, 11%, 58%, 1);
+}

@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Julius Sans One";
+}
+
+body {
+  background-color: var(--bg-light);
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.blue-circle {
+  position: absolute;
+  bottom: -30rem;
+  left: 0rem;
+  height: 47.1875rem;
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-blue);
+  border-radius: 50%;
+}
+
+.brown-circle {
+  position: absolute;
+  top: -20rem;
+  right: -35rem;
+  height: 45.25rem;
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-brown);
+  border-radius: 50%;
+}
+
+.advice {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1.875rem;
+  box-shadow: 0rem 0.7rem 1rem 0.01rem hsla(0, 0%, 0%, 0.2);
+  padding: 2rem;
+  margin: 5rem auto;
+  width: fit-content;
+}
+
+.heading {
+  font-weight: 200;
+  color: var(--font-light);
+}
+
+.separator {
+  margin: 1rem auto;
+  box-shadow: none;
+  color: var(--font-light);
+}
+
+.statement {
+  font-size: 1.5rem;
+  color: var(--font-dark);
+}
