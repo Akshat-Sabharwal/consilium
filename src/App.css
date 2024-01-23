@@ -57,6 +57,7 @@ main {
   border-radius: 1.875rem;
   box-shadow: 0rem 0.7rem 1.2rem 0.03rem hsla(0, 0%, 0%, 0.2);
   padding: 2rem;
+  margin: 0 3rem;
   min-width: 300px;
   width: fit-content;
   max-width: 45%;
@@ -118,11 +119,11 @@ main {
     margin: 20rem auto;
   }
 
-  /* .light-circle {
-    top: 90vh;
+  .advice:hover {
+    transform: none;
   }
 
-  .dark-circle {
-    bottom: 90vh;
-  } */
+  .advice:hover + .refresh {
+    transform: none;
+  }
 }
