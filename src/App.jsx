@@ -15,7 +15,7 @@ export const App = () => {
   };
 
   return (
-    <>
+    <main>
       <span className="light-circle"></span>
       <span className="dark-circle"></span>
       <div className="complete flex">
@@ -36,6 +36,6 @@ export const App = () => {
           <img src={refresh} />
         </span>
       </div>
-    </>
+    </main>
   );
 };

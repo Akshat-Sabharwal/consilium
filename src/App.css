@@ -10,6 +10,14 @@ body {
   overflow: hidden;
 }
 
+main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -28,14 +36,14 @@ body {
 }
 
 .light-circle {
-  bottom: -27rem;
-  left: -10rem;
+  top: 55vh;
+  right: 65vw;
   background-color: var(--accent-light);
 }
 
 .dark-circle {
-  top: -20rem;
-  right: -28rem;
+  bottom: 45vh;
+  left: 70vw;
   background-color: var(--accent-dark);
 }
 
@@ -49,6 +57,7 @@ body {
   border-radius: 1.875rem;
   box-shadow: 0rem 0.7rem 1.2rem 0.03rem hsla(0, 0%, 0%, 0.2);
   padding: 2rem;
+  min-width: 200px;
   width: fit-content;
   max-width: 45%;
   text-align: center;
@@ -75,7 +84,7 @@ body {
 }
 
 .advice:hover + .refresh {
-  transform: translateY(-220%) rotate(120deg);
+  transform: translateY(-240%) rotate(120deg);
 }
 
 .advice:active {
@@ -102,4 +111,18 @@ body {
   color: var(--accent-dark);
   width: 95%;
   margin: 0.8rem 2.5rem;
+}
+
+@media (max-width: 425px) {
+  .complete {
+    margin: 20rem auto;
+  }
+
+  /* .light-circle {
+    top: 90vh;
+  }
+
+  .dark-circle {
+    bottom: 90vh;
+  } */
 }
