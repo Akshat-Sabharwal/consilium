@@ -116,7 +116,21 @@ main {
 
 @media (max-width: 425px) {
   .complete {
-    margin: 20rem auto;
+    margin: 20rem 3rem;
+  }
+
+  .light-circle {
+    bottom: 50vh;
+    left: 60vw;
+  }
+
+  .dark-circle {
+    top: 45vh;
+    right: 55vw;
+  }
+
+  .advice {
+    transform: scale(0.8);
   }
 
   .advice:hover {
