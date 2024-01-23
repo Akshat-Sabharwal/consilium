@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import "./App.css";
+import refresh from "./assets/images/refresh.png";
 import { useState } from "react";
 
 export const App = () => {
@@ -16,13 +16,26 @@ export const App = () => {
 
   return (
     <>
-      <span className="blue-circle"></span>
-      <span className="brown-circle"></span>
-      <article className="advice">
-        <h1 className="heading">Advice #{advice.id}</h1>
-        <hr className="separator" />
-        <p className="statement">{advice.statement}</p>
-      </article>
+      <span className="light-circle"></span>
+      <span className="dark-circle"></span>
+      <div className="complete flex">
+        <article className="advice flex" onClick={getAdvice}>
+          {advice.id === 0 ? null : (
+            <>
+              <h1 className="heading">Advice #{advice.id}</h1>
+              <hr className="separator" />
+            </>
+          )}
+          <p className="statement">
+            {advice.statement === ""
+              ? "Click to generate an advice"
+              : advice.statement}
+          </p>
+        </article>
+        <span className="refresh flex">
+          <img src={refresh} />
+        </span>
+      </div>
     </>
   );
 };

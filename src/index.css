@@ -2,10 +2,11 @@
 
 :root {
   /* Colors */
-  --bg-light: hsla(290, 17%, 77%, 1);
-  --bg-blue: hsla(199, 34%, 33%, 1);
-  --bg-brown: hsla(38, 55%, 65%, 1);
+  --bg-light: hsl(172, 22%, 87%);
+  --accent-light: hsl(166, 42%, 74%);
+  --accent-dark: hsl(151, 19%, 39%);
 
-  --font-light: hsla(290, 17%, 77%, 1);
-  --font-dark: hsla(290, 11%, 58%, 1);
+  /* Font */
+  --header: 2rem;
+  --para: 1.5rem;
 }
